@@ -6,7 +6,8 @@ target 'ARKit+CoreLocation' do
     pod 'ARCL', :path => '.'
 
     target 'ARCLTests' do
-
+        inherit! :search_paths
+        use_frameworks!
     end
 end
 
